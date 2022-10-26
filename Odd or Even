@@ -1,0 +1,7 @@
+string oddEven(int N){
+        // code here 
+        if(N>>32&1)
+        return("odd");
+        else
+        return("even");
+    }
